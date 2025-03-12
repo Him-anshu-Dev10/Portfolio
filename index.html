@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himanshu's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Himanshu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#aboutSection">About</a></li>
+                    <li><a href="#skillsSection">Skills</a></li>
+                    <li><a href="#projectsSection">Projects</a></li>
+                    <li><a href="#contactSection">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hi, My name is
+                <span class="name"> Himanshu Pokhriyal</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="right-section">
+                <img src="img/h.jpeg" alt="Himanshu's Profile" />
+            </div>
+        </section>
+        <hr>
+        <section class="about-section" id="aboutSection">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/dev.png" alt="About Me" />
+                </div>
+                <div class="about-text">
+                    <h2>A Bit About Me</h2>
+                    <p>
+                        My passion for web development is the driving force behind everything I do. I'm endlessly enthusiastic about exploring new technologies and crafting innovative web solutions. I believe in the power of continuous learning, and I'm committed to putting in the practice needed to master my craft. I strive to bring creativity to every project, thinking outside the box to deliver exceptional results.
+                    </p>
+                    <a href="Resume.pdf" download class="download-cv-button">Download CV</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="skills-section" id="skillsSection">
+            <h2>My Skills</h2>
+            <div class="skills-content">
+                <div class="skills-progress-container">
+                    <div class="skills-progress">
+                        <div class="skill-category">
+                            <h3>Frontend Development</h3>
+                            <div class="skill">
+                                <span>HTML</span>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" data-percent="85"></div>
+                                    </div>
+                                </div>
+                                <span class="level">Medium - Advanced</span>
+                            </div>
+                            <div class="skill">
+                                <span>CSS</span>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" data-percent="80"></div>
+                                    </div>
+                                </div>
+                                <span class="level">Medium - Advanced</span>
+                            </div>
+                            <div class="skill">
+                                <span>JavaScript</span>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" data-percent="60"></div>
+                                    </div>
+                                </div>
+                                <span class="level">Medium</span>
+                            </div>
+                            <div class="skill">
+                                <span>React.js</span>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" data-percent="50"></div>
+                                    </div>
+                                </div>
+                                <span class="level">Medium</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Data Structures and Algorithms</h3>
+                            <div class="skill">
+                                <span>DSA</span>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" data-percent="55"></div>
+                                    </div>
+                                </div>
+                                <span class="level">Medium</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Database</h3>
+                            <div class="skill">
+                                <span>SQL</span>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar">
+                                        <div class="progress" data-percent="75"></div>
+                                    </div>
+                                </div>
+                                <span class="level">Medium - Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-images">
+                    <img class="animated-border" src="img/html5.png" alt="HTML5">
+                    <img class="animated-border" src="img/css1.png" alt="CSS3">
+                    <img class="animated-border" src="img/js.png" alt="JavaScript">
+                    <img class="animated-border" src="img/react.png" alt="React.js">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="projects-section" id="projectsSection">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="img/tic.png" alt="Tic Tac Toe Game">
+                    <div class="project-info">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>A classic game built with HTML, CSS, and JavaScript.</p>
+                        <a href="https://him-anshu-dev10.github.io/Tic-tac-toe/" target="_blank" class="view-project-button">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/calculator.png" alt="Calculator App">
+                    <div class="project-info">
+                        <h3>Calculator App</h3>
+                        <p>A functional calculator web app.</p>
+                        <a href="https://him-anshu-dev10.github.io/Calculator/" target="_blank" class="view-project-button">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/weather.png" alt="Weather Bot">
+                    <div class="project-info">
+                        <h3>Weather Bot</h3>
+                        <p>A bot that provides current weather information.</p>
+                        <a href="weather-bot.html" target="_blank" class="view-project-button">View Project</a>
+                    </div>
+                </div>
+                
+                
+        </section>
+        <hr>
+        <section class="contact-section" id="contactSection">
+            <div class="contact-container">
+                <h2 class="section-heading">Contact Me</h2>
+
+                <div class="contact-content">
+                    <form action="your-form-processing-script.php" method="post" class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Queries and Suggestions" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+
+                    <div class="social-side">
+                        <h3>Follow Me On</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/Him-anshu-Dev10" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/himanshu-pokhriyal-988b5b252" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/your-twitter-handle" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            
+                            <a href="https://www.instagram.com/himanshupokhriyal_10/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            
+                            <a href="https://www.facebook.com/share/19AxENhWES/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <p>Email: <a href="mailto:himutech10@gmail.com">himutech10@gmail.com</a></p>
+                <p>Mobile: +91 8868075145 (Optional)</p>
+            </div>
+            <div class="footer-message">
+                <p>Thank you for visiting my portfolio!</p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; [2025] [Himanshu Pokhriyal]. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer... '],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
